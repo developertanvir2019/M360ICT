@@ -1,10 +1,14 @@
 import "./App.css";
+import TaskForm from "./components/TaskForm";
 
 function App() {
   return (
-    <>
-      <h3 className="text-3xl font-semibold bg-blue-300 p-5">hi lkalla</h3>
-    </>
+    <div className="container flex justify-center">
+      <div>
+        <h1 className="text-3xl font-bold mb-4">Todo List App</h1>
+        <TaskForm />
+      </div>
+    </div>
   );
 }
 
